@@ -175,8 +175,8 @@ return (i); // return the final value of i, which is the length of the string
 The `libft` library is a fundamental tool for understanding C programming at a deeper level, as a first step with this library. By implementing these functions, you gain insight into memory management, algorithm design, and efficient coding practices. Use this library as a stepping stone for more complex projects and as a resource for developing your programming skills.
 
 ## Author & License
-For any questions or contributions, feel free to contact me! [Ani Mema](https://github.com/amema42)
-This project is licensed under the MIT License.
+For any questions or contributions, feel free to [contact me](mailto:ani.mema@proton.me)
+by [Ani Mema](https://github.com/amema42) - This project is licensed under the MIT License.
 ```css
 This `README.md` file consolidates all the detailed explanations, code examples, and logical flow of this Libft project.
 ```
