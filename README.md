@@ -112,8 +112,8 @@ Below is an overview of the key functions in `libft`, along with insights into t
 To implement these functions independently, consider the following steps:
 
 1. **Understand the Function Requirements**: Clearly define what each function is supposed to do. Refer to the standard C library documentation for detailed descriptions and edge cases.
-1.5 **man**: Often, your only tool to describe the behavior of a function is the `man` - try to use it and to understand how it's written.
-  - example : `man strlen`
+2. **man**: Often, your only tool to describe the behavior of a function is the `man` - try to use it and to understand how it's written.
+  example : `man strlen`
   ```bash
   bash-3.2$ man strlen
   STRLEN(3)                               Library Functions Manual                               STRLEN(3)
@@ -150,25 +150,24 @@ To implement these functions independently, consider the following steps:
 
   macOS 13.6                                  February 28, 2009                                 macOS 13.6
   ```
-2. **Plan the Logic**: Outline the steps required to achieve the function's goal. Consider edge cases and input validation.
-3. **Write the Code**: Implement the function in C, making sure to handle memory management and edge cases correctly.
-4. **Test Thoroughly**: Write test cases to ensure your function works as expected in all scenarios. Use both typical and edge case inputs.
-5. **Optimize and Refactor**: Review your code for efficiency and readability. Refactor if necessary to improve performance and maintainability.
+3. **Plan the Logic**: Outline the steps required to achieve the function's goal. Consider edge cases and input validation.
+4. **Write the Code**: Implement the function in C, making sure to handle memory management and edge cases correctly.
+5. **Test Thoroughly**: Write test cases to ensure your function works as expected in all scenarios. Use both typical and edge case inputs.
+6. **Optimize and Refactor**: Review your code for efficiency and readability. Refactor if necessary to improve performance and maintainability.
 
 Example: `ft_strlen`
 
 Purpose: Calculate the length of a string.
 
 ```c
-size_t	ft_strlen(const char *s)
-{
-	size_t	i; // i = using this int var. as the length of the string
+size_t i; // declare a variable i of type size_t
 
-	i = 0;
-	while (s[i])
-		i++;
-	return (i); // returning the length of the string
-}
+i = 0; // initialize i to 0
+
+while (s[i]) // loop until the null character is reached
+    i++; // increment i for each character in the string
+
+return (i); // return the final value of i, which is the length of the string
 ```
 
 ## Conclusion
