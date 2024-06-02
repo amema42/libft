@@ -113,7 +113,7 @@ To implement these functions independently, consider the following steps:
 
 1. **Understand the Function Requirements**: Clearly define what each function is supposed to do. Refer to the standard C library documentation for detailed descriptions and edge cases.
 2. **man**: Often, your only tool to describe the behavior of a function is the `man` - try to use it and to understand how it's written.
-  example : `man strlen`
+  - example : `man strlen`
   ```bash
   bash-3.2$ man strlen
   STRLEN(3)                               Library Functions Manual                               STRLEN(3)
